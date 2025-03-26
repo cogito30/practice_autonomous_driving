@@ -25,7 +25,15 @@
 ## 3. OpenAI Gym을 활용한 시뮬레이션 
 - gym 설치
 ```
-pip install gym[box2d]
+pip install swig
+pip install 'gym[box2d]'
+pip install "gymnasium[box2d]"
+conda install conda-forge::gym-box2d
+```
++) mac에서 설치가 안될시
+- [참고](https://j-codingbox.tistory.com/20)
+```
+brew install cmake boost boost-python sdl2 swig wget
 ```
 - carracing 실행
 ```
